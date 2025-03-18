@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "EXP",
-    "slug": "EXP",
+    "name": "Expense Tracker",
+    "slug": "Expense_Tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/LOGO.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/LOGO.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/LOGO.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.harshilbuha.Expense_Tracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c70b61f-7120-49a4-b453-20d0e06f088f"
+      }
     }
   }
 }
